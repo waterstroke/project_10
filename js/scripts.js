@@ -1,19 +1,13 @@
 // var divisable = function(i) {
 //
-//   countdown.forEach(function(count) {
-//     var greeting;
-//       if (i % 3)  {
-//         greeting = "ping"
-//       }
-
-//       //  else if {
-//       //  (i % 5 === "pong")
-//       // }
-//       //  else if{
-//       //  (i % 15 === "ping pong"))
-//       // }
-//       //  else
-
+  // countdown.forEach(function(count) {
+  //   var divisable = function(countdown) {
+  //     if (countdown % 3)  {
+  //       return true;
+  //     } else {
+  //       return false;
+  //     }
+  //   };
 
 
 $(document).ready(function() {
@@ -26,7 +20,15 @@ $(document).ready(function() {
     }
 
     countdown.forEach(function(count) {
-      // divisable();
+      var greeting1 = "ping"
+      if (i % 3)  {
+        countdown.push(greeting1);
+      }
+      // var result = leapYear(year);
+      if (countdown === 3){
+        alert("ping");
+      }
+
       $("#list").append("<li>" + count + "</li>");
 
     });
