@@ -19,20 +19,29 @@ $(document).ready(function() {
         countdown.push(i);
     }
 
-    countdown.forEach(function(count) {
+    // countdown.forEach(function(count) {
+      $.each(countdown,function(index,value){
+          // this tests the value presently being "looked at" to see if it is divisible by 3, then sets the array item to "ping" if it is
+          if(value % 3 === 0 ) {
+            countdown[index] = 'ping';
+          }
+        });
+        // just outputting to console
+        // console.log(countdown);
+      // });
 
-      if (i % 3)  {
-        // countdown.replace(i);
-        $(".ping").show();
-      }
+      // if (i % 3)  {
+      //   // countdown.replace(i);
+      //   $(".ping").show();
+      // }
       // var greeting1 = "ping"
       // if (i % 3)  {
       //   countdown.push(greeting1);
       // }
 
-      $("#list").append("<li>" + count + "</li>");
+      $("#list").append("<li>" + countdown + "</li>");
 
-    });
+    // });
     // if (i % 3)  {
     //   $(".ping").show();
     // }
