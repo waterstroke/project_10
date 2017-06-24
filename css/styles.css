@@ -1,7 +1,17 @@
 #list {
   display: none;
+  /*background-color: #bfbfbf; /* Green */*/
+   border: none;
+   color: #b30000;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
 }
-
+h1 {
+  color: #b30000;
+}
 .ping {
   display: none;
 }
