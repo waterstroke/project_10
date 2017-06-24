@@ -2,7 +2,7 @@
 //
   // countdown.forEach(function(count) {
   //   var divisable = function(countdown) {
-  //     if (countdown % 3)  {
+  //     if (countdown % 3) && (year % 100 !== 0) || (year % 400 === 0)) {
   //       return true;
   //     } else {
   //       return false;
@@ -20,19 +20,23 @@ $(document).ready(function() {
     }
 
     countdown.forEach(function(count) {
-      var greeting1 = "ping"
+
       if (i % 3)  {
-        countdown.push(greeting1);
+        // countdown.replace(i);
+        $(".ping").show();
       }
-      // var result = leapYear(year);
-      if (countdown === 3){
-        alert("ping");
-      }
+      // var greeting1 = "ping"
+      // if (i % 3)  {
+      //   countdown.push(greeting1);
+      // }
 
       $("#list").append("<li>" + count + "</li>");
 
     });
-
+    // if (i % 3)  {
+    //   $(".ping").show();
+    // }
+    $("#list").show();
     event.preventDefault();
     });
   });
