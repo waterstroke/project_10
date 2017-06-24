@@ -11,7 +11,7 @@ _Iv'e created a webpage about divisable by 3,5,15. Within this webpage using HTM
 
 ## link to site on GitHub Pages
 
-https://waterstroke.github.io/project_bryant/
+https://waterstroke.github.io/project_10/
 
 ## Support and contact details
 
