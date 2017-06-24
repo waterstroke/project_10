@@ -2,11 +2,11 @@
 //
   // countdown.forEach(function(count) {
   //   var divisable = function(countdown) {
-  //     if (countdown % 3) && (year % 100 !== 0) || (year % 400 === 0)) {
-  //       return true;
-  //     } else {
-  //       return false;
-  //     }
+      // if (countdown % 3) && (countdown % 15 !== 0) || (year % 400 === 0)) {
+      //   return true;
+      // } else {
+      //   return false;
+      // }
   //   };
 
 
@@ -22,7 +22,13 @@ $(document).ready(function() {
     // countdown.forEach(function(count) {
       $.each(countdown,function(index,value){
           // this tests the value presently being "looked at" to see if it is divisible by 3, then sets the array item to "ping" if it is
-          if(value % 3 === 0 ) {
+          if(value % 15 === 0) {
+            countdown[index] = 'Ping Pong';
+          }
+          if(value % 5 === 0 && value % 15 !== 0) {
+            countdown[index] = 'pong';
+          }
+          if(value % 3 === 0 && value % 15 !== 0) {
             countdown[index] = 'ping';
           }
         });
@@ -39,7 +45,7 @@ $(document).ready(function() {
       //   countdown.push(greeting1);
       // }
 
-      $("#list").append("<li>" + countdown + "</li>");
+      $("#list").append("<li>" + countdown  + "</li>");
 
     // });
     // if (i % 3)  {
