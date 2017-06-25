@@ -23,7 +23,7 @@ $(document).ready(function() {
     countdown.forEach(function(count) {
       $("#list").append("<li>" + count + "</li>");
     });
-    
+
     $("#list").show();
     event.preventDefault();
     });

@@ -11,9 +11,9 @@
 
   <body>
     <div class= "container">
-      <div class="jumbatron">
+      <div class="jumbotron">
       <div class="row">
-        <h1>Ping Pong Game</h1>
+        <h1><span class= "red">Ping Pong Game</span></h1>
         <h3> Here is how you play</h3>
         <ol>
           <li>Numbers divisible by 3 become "Ping"</li>
@@ -28,18 +28,27 @@
           <label for="number">Tell me a number</label>
           <input id="number" class="form-control" type="text">
         </div>
-        <button type="submit" class="btn btn-info btn-lg">countdown</button>
+        <button type="submit" class="btn btn-info btn-lg">Lets Play!</button>
         </form>
       </div>
       <div>
-        <span class=ping>"ping"</span>
-      </div>
-      <div>
-        <span class=drop></span>
-      <ul id="list">
-      </ul>
-      </div>
+        <div class="row">
+          <div class="col-md-8">
+            <!-- <div class="panel panel-info"> -->
+              <div class="panel-heading">
+                 <img src="img/pingpong.png">
+            <div class="jumbotron">
+              <div class="flex-container">
+              <ul id="list">
+              </div>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+
   </body>
 </html>
