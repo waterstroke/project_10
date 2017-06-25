@@ -22,9 +22,9 @@
 }
 img {
   clear: both;
-  float: center;
+  float: left;
   margin: -200px;
-  padding: -100px;
+  padding: -200px;
   margin-left: 400px;
   max-width: 70%;
   max-height: 70%;
