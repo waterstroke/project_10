@@ -2,7 +2,7 @@ var pingPong = function(userInput) {
 
   var countdown = [];
 
-  for (i = 1; i <= userInput; i++) {
+  for (i = 0; i <= userInput; i++) {
       if(i % 15 === 0) {
         countdown[i] = 'Ping Pong';
       } else if(i % 5 === 0) {
@@ -22,7 +22,7 @@ $(document).ready(function() {
     var userInput = parseInt($("input#number").val());
     var funcPingPong = pingPong(userInput);
 
-    for (var i = 0; i < funcPingPong.length; i++ ) {
+    for (var i = 1; i < funcPingPong.length; i++ ) {
           $('#list').append('<li>' + funcPingPong[i] + '</li>');
         };
 
