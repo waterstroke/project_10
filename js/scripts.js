@@ -5,10 +5,10 @@ var pingPong = function(userInput) {
   for (i = 1; i <= userInput; i++) {
       if(i % 15 === 0) {
         countdown[i] = 'Ping Pong';
-      // } else if(i % 5 === 0) {
-      //   countdown[i] = 'pong';
-      // } else if(i % 3 === 0) {
-      //   countdown[i] = 'ping';
+      } else if(i % 5 === 0) {
+        countdown[i] = 'pong';
+      } else if(i % 3 === 0) {
+        countdown[i] = 'ping';
       } else {
         countdown.push(i);
       }
