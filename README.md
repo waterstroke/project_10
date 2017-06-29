@@ -11,12 +11,12 @@ _Iv'e created a webpage about divisable by 3,5,15. Within this webpage using HTM
 
 ## Specs
 
-|  Behavior: 	                          |Input Example:| Output Example: |
-|-------------------------------------	|-----------------
-|  A number entered divisible by 3      |      3      	  |   "Ping"     |  	|   	
-|  A number entered divisible by 5      |      5          |   "Pong"     |   	|   	
-|  A number entered divisible by 15     |      15   	    | "PingPong!"  |
-|  A number entered not divisible by 3,5,15 	|      8    |   8          |
+|  Behavior: 	                          |Input Example:   | Output Example: |
+|-------------------------------------	|-----------------|
+|  A number entered divisible by 3      |      3      	  |   "Ping"        |  	   	
+|  A number entered divisible by 5      |      5          |   "Pong"        |   	   	
+|  A number entered divisible by 15     |      15   	    | "PingPong!"     |
+|  A number entered not divisible by 3,5,15 	|      8    |   8             |
 
 
 ## link to site on GitHub Pages
